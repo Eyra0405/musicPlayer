@@ -4,7 +4,7 @@
  <p>¡Bienvenido a tu nuevo reproductor de música! 🎧✨ Un proyecto donde puedes disfrutar de tus canciones favoritas, explorar una lista de reproducción interactiva y personalizar tu experiencia con funciones como la reproducción aleatoria y la opción de repetir canciones. Todo en una interfaz simple y encantadora.</p>
 
  <div class="features">
-        <h2>🚀 **Características:**</h2>
+        <h2>🚀 Características:</h2>
         <div class="feature"><i>🎧</i><strong>Reproducción de Música:</strong> Escucha tus canciones favoritas desde tu navegador.</div>
         <div class="feature"><i>🎶</i><strong>Lista de Canciones Interactiva:</strong> Selecciona tu canción de la lista con un solo clic.</div>
         <div class="feature"><i>🔀</i><strong>Modo Aleatorio:</strong> Disfruta de tus canciones en orden aleatorio.</div>
@@ -14,7 +14,7 @@
     </div>
 
  <div class="technologies">
-        <h2>🌱 **Tecnologías Usadas:**</h2>
+        <h2>🌱 Tecnologías Usadas:</h2>
         <div class="technology"><i>🌐</i><strong>HTML5:</strong> Para la estructura del sitio.</div>
         <div class="technology"><i>🎨</i><strong>CSS3:</strong> Para un diseño visualmente atractivo y moderno.</div>
         <div class="technology"><i>💻</i><strong>JavaScript:</strong> Para la interacción y control del reproductor.</div>
@@ -23,7 +23,7 @@
     </div>
 
 <div class="instructions">
-        <h2>🌸 **Cómo Usarlo:**</h2>
+        <h2>🌸 Cómo Usarlo:</h2>
         <div class="instruction"><i>1️⃣</i><strong>Clona el Repositorio:</strong> <br><code>git clone https://github.com/tuusuario/reproductor-musica.git</code></div>
         <div class="instruction"><i>2️⃣</i><strong>Instala Dependencias:</strong> Asegúrate de tener MongoDB corriendo y las dependencias necesarias instaladas.</div>
         <div class="instruction"><i>3️⃣</i><strong>Corre el Backend (API Flask):</strong> Desde la terminal: <br><code>python run.py</code></div>
@@ -35,7 +35,7 @@
     </div>
 
 <div class="footer">
-        <h2>📚 **Licencia:**</h2>
+        <h2>📚 Licencia:</h2>
         <p>Este proyecto está licenciado bajo la Licencia MIT - ver el archivo <a href="LICENSE">LICENSE</a> para más detalles.</p>
     </div>
 
