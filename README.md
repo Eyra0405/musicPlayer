@@ -1,56 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reproductor de Música Coqueto</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f4e1;
-            color: #4f4f4f;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        h1, h2 {
-            color: #4a6e42; /* Verde suave */
-        }
-        .features, .technologies, .instructions {
-            background-color: #dfc7b7; /* Marrón suave */
-            padding: 20px;
-            margin: 10px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-        }
-        .feature, .technology, .instruction {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-        .feature i, .technology i, .instruction i {
-            margin-right: 8px;
-        }
-        .highlight {
-            color: #8dbf64; /* Verde pastel */
-        }
-        .button {
-            background-color: #8dbf64;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 18px;
-            display: inline-block;
-            margin-top: 10px;
-        }
-        .button:hover {
-            background-color: #7d9f58;
-        }
-    </style>
-</head>
-<body>
 
-<h1>🎶 **Reproductor de Música Coqueto** 🎶</h1>
+<h1>🎶 Reproductor de Música🎶</h1>
 
  <p>¡Bienvenido a tu nuevo reproductor de música! 🎧✨ Un proyecto donde puedes disfrutar de tus canciones favoritas, explorar una lista de reproducción interactiva y personalizar tu experiencia con funciones como la reproducción aleatoria y la opción de repetir canciones. Todo en una interfaz simple y encantadora.</p>
 
