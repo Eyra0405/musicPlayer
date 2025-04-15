@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Cute Music Player</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+  
+</head>
+<body>
+  <img src="imagenes/a.gif" alt="Imagen del reproductor" id="playerImage">
+  <div class="music-player">
+    <div class="header">
+        <p class="title" id="songTitle">ive - off the record</p>
+      </div>
+
+     <div class="progress-bar">
+      <div class="filled-progress" id="progressBar"></div>
+    </div>
+
+
+    <!-- Reproductor de audio -->
+    <audio id="audioPlayer" controls>
+      <ul id="songList" class="song-list"></ul>
+      <source id="audioSource" type="audio/mp3">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <div class="controls">
+      <button class="control-btn" id="shuffleButton" title="Reproducción aleatoria">
+        <i class="fas fa-random"></i>
+      </button>
+      <button class="control-btn" id="prevButton">
+        <i class="fas fa-backward"></i>
+      </button>
+      <button class="play-btn" id="playPauseButton">
+        <i class="fas fa-play"></i>
+      </button>
+      <button class="control-btn" id="nextButton">
+        <i class="fas fa-forward"></i>
+      </button>
+      <button class="control-btn" id="repeatButton" title="Repetir">
+        <i class="fas fa-redo"></i>
+      </button>
+      
+      
+    </div>
+    
+
+    <div class="footer">
+      <div class="hearts">
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart"></i>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

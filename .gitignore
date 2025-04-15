@@ -1,0 +1,9 @@
+# Entorno virtual
+venv/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de IDEs
+.vscode/

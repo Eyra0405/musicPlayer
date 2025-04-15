@@ -1,0 +1,158 @@
+.play-btn.playing {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #388135; /* Purple-200 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  #playerImage {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 16px;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+
+  }
+  .music-player {
+    display: flex;
+    flex-direction: column; /* MUY IMPORTANTE */
+    align-items: center;
+    background-color: #85e985; /* Purple-300 */
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    border: 4px solid #19642f; /* Pink-300 */
+  }
+
+  
+  .header {
+    background-color: #85e985; /* Purple-400 */
+    color: rgb(80, 15, 15);
+    text-align: center;
+    padding: 8px;
+ /* Pink-300 */
+  }
+  
+  .title {
+    font-size: 14px;
+  }
+  
+
+  
+  .progress-bar {
+    margin-top: 8px;
+    background-color: #643204; /* Purple-400 */
+    height: 4px;
+    border-radius: 9999px;
+   /* Pink-300 */
+  }
+  
+  .filled-progress {
+    width: 50%;
+    height: 100%;
+    background-color:rgb(13, 73, 18); /* Purple-600 */
+  }
+  
+  .controls {
+    margin-top: 8px;
+    background-color: #85e985; /* Purple-400 */
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Pink-300 */
+  }
+  
+  .control-btn,
+  .play-btn {
+    font-size: 24px;
+    color: rgb(90, 70, 15);
+    background: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Manito al pasar sobre el botón */
+  }
+  
+
+  
+  .controls button:hover {
+    opacity: 0.8; /* Efecto hover */
+  }
+  
+  .footer {
+    margin-top: 8px;
+    background-color: #85e985; /* Purple-400 */
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Pink-300 */
+  }
+
+  
+
+  .hearts i {
+    color: rgb(13, 73, 18);
+    
+  }
+  .song-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    max-height: 200px;
+    overflow-y: auto;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .song-list li {
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    background-color: #fce4ec;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .song-list li:hover {
+    background-color: #f8bbd0;
+  }
+  
+  .song-list li.active {
+    background-color: #f48fb1;
+    font-weight: bold;
+  }
+  #audioPlayer {
+    display: none;
+  }
+  #shuffleButton i {
+    color: rgb(90, 70, 15);
+    transition: transform 0.2s ease;
+  }
+  
+  #shuffleButton:hover i {
+    transform: scale(1.2);
+  }
+    
+  #repeatButton small {
+    font-size: 0.5rem;
+    vertical-align: super;
+    color: #d36fa8;
+  }
+  
